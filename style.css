@@ -8,9 +8,11 @@ body {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+h1{
+  color: whitesmoke;
+}
 .todo-form {
-  background-color: rgb(120, 104, 57);
+  background-color: rgb(63, 43, 132);
   width: 360px;
   padding: 33px;
   text-align: center;
@@ -32,10 +34,12 @@ h1 {
   padding: 5px;
   background-color: rgb(144, 191, 233);
   cursor: pointer;
+ 
 }
 
 #submit-button:hover {
   background-color: rgb(87, 169, 241);
+  color: aliceblue;
 }
 
 .task ul {
@@ -43,7 +47,7 @@ h1 {
   padding: 7px;
   /* padding-top: 20px; */
   position: relative;
-  background-color: rgb(123, 104, 104);
+  background-color: rgb(160, 163, 218);
   color: rgb(3, 17, 17);
   font-size: 19px;
   text-align: left;
