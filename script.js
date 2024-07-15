@@ -8,7 +8,7 @@ function Add() {
     let newEle = document.createElement("ul");
     newEle.innerHTML = `${input.value} <input type ="checkbox">`;
     task.appendChild(newEle); //add the new element in the task
-    input.value = ""; // empty's the input field
+    // input.value = ""; // empty's the input field
     newEle.querySelector("input").addEventListener("click", strikeThrough);
     function strikeThrough() {
       if (this.checked) {
